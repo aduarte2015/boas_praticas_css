@@ -1,0 +1,43 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.produtos {
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+}
+
+/* Estilos do bloco produto */
+.produto {
+    /* Estilos do bloco produto */
+}
+
+/* Estilos do elemento imagem dentro de produto */
+.produto__imagem {
+    width: 100%;
+}
+
+/* Estilos do elemento nome dentro de produto */
+.produto__nome {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+/* Estilos do elemento descricao dentro de produto */
+.produto__descricao {
+    color: gray;
+}
+
+/* Estilos específicos para o modificador de produto--destaque */
+.produto--destaque {
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
+}
